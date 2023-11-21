@@ -29,7 +29,6 @@ enable_testing()
 
 add_test(NAME SanityCheckTest
          COMMAND $<TARGET_FILE:SPDLogTest> a b)
-         include(CTest)
 
 include(GoogleTest)
 
